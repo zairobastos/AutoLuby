@@ -2,6 +2,7 @@ import Logo from '../../assets/images/Logo.svg';
 import Carro from '../../assets/images/carro.svg';
 import { Inputer } from '../../components/input-login';
 import {TelaLogin, LoginG} from'./styles';
+import { Link } from 'react-router-dom';
 export default function Login(){
     return(
         <LoginG>
@@ -26,7 +27,7 @@ export default function Login(){
                         </div>
                         <p>Esqueceu a senha?</p>
                     </div>
-                    <button type="submit">Entrar</button>
+                    <Link to="/home"><button type="submit">Entrar</button></Link>
                     <h4>Ainda não tem uma conta? <span>Criar Conta</span></h4>
                 </form>
             </TelaLogin>

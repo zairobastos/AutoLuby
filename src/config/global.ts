@@ -40,6 +40,7 @@ export const GlobalStyle = createGlobalStyle`
         --background-login-input-border: ${pixelToRem(1)} solid #E6E6E6;
         --background-login-button: #F54A48;
         --background-login-check: var(--background-login-button);
+        --background-home: var(--background-login);
 
         /* Cor de texto */
         --color-title-login: #3C3C3C;
